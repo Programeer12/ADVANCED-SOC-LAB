@@ -2,7 +2,7 @@
 
 A self-contained Security Operations Center (SOC) lab built on 4 virtual machines, combining a SIEM (Wazuh), network intrusion detection (Suricata + Snort), a monitored Windows endpoint, and an attacker machine for live threat simulation.
 
-![Architecture](screenshots/02-architecture.png)
+![Architecture](screenshots/2.png)
 
 ## 📑 Table of Contents
 - [Overview](#overview)
