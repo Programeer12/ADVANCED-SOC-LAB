@@ -4,6 +4,7 @@
 ![Snort](https://img.shields.io/badge/IDS-Snort%203.0-orange)
 ![MITRE](https://img.shields.io/badge/MITRE-T1046-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
+
 A self-contained Security Operations Center (SOC) lab built on 4 virtual machines, combining a SIEM (Wazuh), network intrusion detection (Suricata + Snort), a monitored Windows endpoint, and an attacker machine for live threat simulation.
 
 ![Architecture](screenshots/2.png)
@@ -62,3 +63,14 @@ See [docs/TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md).
 ## 📜 License
 
 This project is intended for educational and lab use only. Do not run attack tools against systems you do not own or have explicit permission to test.
+## 🎯 Sample Detection
+
+**Attack:** `nmap -sS -T4 -A 192.168.56.13`
+
+**Detection:** Snort signature `1:1228:7 SCAN nmap XMAS`
+
+**Alert:** Rule 100100 (Level 10) - "Nmap Scan Detected (Snort)"
+
+**MITRE ATT&CK:** T1046 - Network Service Discovery
+
+See the detection in action: [screenshots/8.png](screenshots/8.png)
