@@ -1,5 +1,9 @@
 # 🛡️ SOC Lab — Wazuh SIEM + Suricata + Snort
-
+![Wazuh](https://img.shields.io/badge/SIEM-Wazuh%204.9-blue)
+![Suricata](https://img.shields.io/badge/IDS-Suricata%208.0-red)
+![Snort](https://img.shields.io/badge/IDS-Snort%203.0-orange)
+![MITRE](https://img.shields.io/badge/MITRE-T1046-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 A self-contained Security Operations Center (SOC) lab built on 4 virtual machines, combining a SIEM (Wazuh), network intrusion detection (Suricata + Snort), a monitored Windows endpoint, and an attacker machine for live threat simulation.
 
 ![Architecture](screenshots/2.png)
