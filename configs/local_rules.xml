@@ -1,0 +1,15 @@
+<!-- Local rules for SOC Lab -->
+
+<group name="suricata,attack,">
+
+  <rule id="100100" level="10">
+    <if_sid>86601</if_sid>
+    <field name="alert.signature" type="pcre2">(?i)(nmap|scan)</field>
+    <description>Nmap Scan Detected: $(alert.signature) from $(src_ip)</description>
+    <mitre>
+      <id>T1046</id>
+    </mitre>
+    <group>network_scan,reconnaissance,</group>
+  </rule>
+
+</group>
