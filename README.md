@@ -74,3 +74,13 @@ This project is intended for educational and lab use only. Do not run attack too
 **MITRE ATT&CK:** T1046 - Network Service Discovery
 
 See the detection in action: [screenshots/8.png](screenshots/8.png)
+
+## 🎓 Skills Demonstrated
+
+- **SIEM Administration:** Wazuh 4.9 deployment, agent configuration, rule writing
+- **IDS/IPS:** Suricata + Snort setup, rule tuning, signature analysis
+- **Detection Engineering:** Custom Wazuh rules with MITRE ATT&CK mapping
+- **Network Security:** Lab topology design, traffic analysis with tcpdump
+- **Attack Simulation:** Nmap, Hydra, Hping3, Metasploit-compatible lab
+- **Log Analysis:** JSON, syslog, journald, Windows Event Channel
+- **Troubleshooting:** Rule hierarchy, decoder limits, agent-manager pipelines
